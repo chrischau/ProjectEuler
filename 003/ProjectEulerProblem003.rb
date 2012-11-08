@@ -1,5 +1,5 @@
 startTime = Time.now
-number = 500#600851475143
+number = 600851475143
 squareRootedNumber = Math.sqrt(number)
 result = 0
 
@@ -23,7 +23,7 @@ for counter in 2..squareRootedNumber
       existingPrimeNumbers.push(counter)
       
       for siftIndex in counter..squareRootedNumber
-        if (siftIndex % counter == 0)
+        if (sift[siftIndex].nil? and (siftIndex % counter == 0))
           sift[siftIndex] = "Not Prime"                   
         end
       end
