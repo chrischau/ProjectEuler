@@ -20,12 +20,12 @@ for number in (1..@maxNumber)
     end  
   end
   
+  puts "Iteration " + number.to_s + " with sum " + @sum.to_s + " has " + @divisorCounter.to_s + " divisors."
+  
   if (@divisorCounter > 500)
     puts "the first triangle number to have over five hundred divisors is " + @sum.to_s + " at iteration " + number.to_s
     break
-  end
-  
-  puts @sum.to_s + " : " + @divisorCounter.to_s
+  end   
 end
 
 puts "Time took: " + (Time.now - @startTime).to_s + " seconds"
