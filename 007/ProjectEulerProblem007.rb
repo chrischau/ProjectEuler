@@ -11,4 +11,12 @@ for p in Prime.instance
   end
 end
 
-puts "Time took: " + (Time.now - startTime).to_s + " seconds."
+def sieve_of_eratosthenes(max)
+  array = (2..max).to_a
+  (2..Math::sqrt(max)).each do |i|
+    array.delete_if { |a| a % i == 0 && a != i }
+  end
+  array
+end
+
+puts "Time took: " + (Time.now - startTime).to_s + " seconds"
