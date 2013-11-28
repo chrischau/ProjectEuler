@@ -11,4 +11,4 @@ for p in Prime.instance
   end
 end
 
-puts "Time took: " + (Time.now - startTime).to_s + " seconds"
+puts "Time took: " + (Time.now - startTime).to_s + " seconds."
