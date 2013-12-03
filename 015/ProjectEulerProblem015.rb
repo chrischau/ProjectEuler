@@ -1,30 +1,22 @@
+require 'matrix'
+
 @startTime = Time.now
-@winningNumber = 0
-@chainCounter = 0
+@dimension = 21
 
-def Collatz(number)
-  if (number != 1) 
-    number = number.even? ? number / 2 : 3 * number + 1
-    #puts number
+class Matrix
+  def []=(row, column, value)
+    @rows[row][column] = value
   end
-  
-  return number
 end
 
-for number in 1..1000000
-  @loopCounter = 1
-  @testNumber = number
-  
-  while (@testNumber != 1)
-    @loopCounter += 1
-    @testNumber = Collatz(@testNumber)
-    #puts @loopCounter
-  end
-    
-  @chainCounter = @loopCounter >= @chainCounter ? @loopCounter : @chainCounter
-  @winningNumber = @loopCounter >= @chainCounter ? number : @winningNumber
+matrix = Matrix.build(@dimension, @dimension) { 1 }
 
+for x in 1..@dimension-1
+  for y in 1..@dimension-1
+    matrix[x, y] = matrix[x-1, y] + matrix[x, y-1]
+  end
 end
 
-puts @winningNumber.to_s + " produces the longest chain of " + @chainCounter.to_s
+puts matrix[@dimension-1, @dimension-1]
+
 puts "Time took: " + (Time.now - @startTime).to_s + " seconds"
