@@ -1,0 +1,15 @@
+C:\Development\GitHub\ProjectEuler\018\ProjectEulerProblem018\ProjectEulerProblem018\obj\Debug\net7.0\ProjectEulerProblem018.csproj.AssemblyReference.cache
+C:\Development\GitHub\ProjectEuler\018\ProjectEulerProblem018\ProjectEulerProblem018\obj\Debug\net7.0\ProjectEulerProblem018.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\GitHub\ProjectEuler\018\ProjectEulerProblem018\ProjectEulerProblem018\obj\Debug\net7.0\ProjectEulerProblem018.AssemblyInfoInputs.cache
+C:\Development\GitHub\ProjectEuler\018\ProjectEulerProblem018\ProjectEulerProblem018\obj\Debug\net7.0\ProjectEulerProblem018.AssemblyInfo.cs
+C:\Development\GitHub\ProjectEuler\018\ProjectEulerProblem018\ProjectEulerProblem018\obj\Debug\net7.0\ProjectEulerProblem018.csproj.CoreCompileInputs.cache
+C:\Development\GitHub\ProjectEuler\018\ProjectEulerProblem018\ProjectEulerProblem018\bin\Debug\net7.0\ProjectEulerProblem018.exe
+C:\Development\GitHub\ProjectEuler\018\ProjectEulerProblem018\ProjectEulerProblem018\bin\Debug\net7.0\ProjectEulerProblem018.deps.json
+C:\Development\GitHub\ProjectEuler\018\ProjectEulerProblem018\ProjectEulerProblem018\bin\Debug\net7.0\ProjectEulerProblem018.runtimeconfig.json
+C:\Development\GitHub\ProjectEuler\018\ProjectEulerProblem018\ProjectEulerProblem018\bin\Debug\net7.0\ProjectEulerProblem018.dll
+C:\Development\GitHub\ProjectEuler\018\ProjectEulerProblem018\ProjectEulerProblem018\bin\Debug\net7.0\ProjectEulerProblem018.pdb
+C:\Development\GitHub\ProjectEuler\018\ProjectEulerProblem018\ProjectEulerProblem018\obj\Debug\net7.0\ProjectEulerProblem018.dll
+C:\Development\GitHub\ProjectEuler\018\ProjectEulerProblem018\ProjectEulerProblem018\obj\Debug\net7.0\refint\ProjectEulerProblem018.dll
+C:\Development\GitHub\ProjectEuler\018\ProjectEulerProblem018\ProjectEulerProblem018\obj\Debug\net7.0\ProjectEulerProblem018.pdb
+C:\Development\GitHub\ProjectEuler\018\ProjectEulerProblem018\ProjectEulerProblem018\obj\Debug\net7.0\ProjectEulerProblem018.genruntimeconfig.cache
+C:\Development\GitHub\ProjectEuler\018\ProjectEulerProblem018\ProjectEulerProblem018\obj\Debug\net7.0\ref\ProjectEulerProblem018.dll
