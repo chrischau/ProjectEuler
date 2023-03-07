@@ -1,12 +1,31 @@
-﻿namespace ProjectEulerProblem022 {
+﻿using System.Linq;
+
+namespace ProjectEulerProblem022 {
 	internal class Program {
 		static void Main(string[] args) {
+			int namePosition = 1;
+			int nameSum = 0;
+			var nameList = new List<string>();
 
-			string name = "COLIN";
+			string names = File.ReadAllText(@"..\..\..\p022_names.txt");
+			nameList.AddRange(from name in names.Split(",")	select name);
+			nameList.Sort();
 
-			foreach (var letter in name.ToCharArray()) {
-				Console.WriteLine("{0} - {1}", letter, AlphabetPosition(letter));
+			foreach (var name in nameList) {
+				int nameValue = 0;
+
+				foreach (var letter in name.ToCharArray()) {
+					nameValue += AlphabetPosition(letter);
+					//Console.WriteLine("{0} - {1}", letter, AlphabetPosition(letter));
+				}
+
+				nameSum += nameValue * namePosition;
+				//Console.WriteLine("{0} = {1} * {2}", name, namePosition, nameValue);
+
+				namePosition++;
 			}
+
+			Console.WriteLine("Sum of the name orders: {0}", nameSum);
 		}
 
 		static int AlphabetPosition(char letter) {
