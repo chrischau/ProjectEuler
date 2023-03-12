@@ -6,6 +6,7 @@
 			string str = "0123456789";
 			char[] charArry = str.ToCharArray();
 			Permute(charArry, 0, str.Length-1);
+			Console.WriteLine("Number of permutation: {0}", count);
 		}
 
 		static void Permute(char[] numbers, int i, int numberToPermut) {
