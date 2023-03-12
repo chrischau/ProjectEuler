@@ -16,8 +16,7 @@
 				Console.WriteLine(numbers);				
 				if (count == 1000000) {
 					//Console.WriteLine("Count {0}", count);
-					//Console.WriteLine(numbers);
-					return;
+					//Console.WriteLine(numbers);					
 				}
 			}
 			else {
@@ -25,6 +24,8 @@
 					Swap(ref numbers[i], ref numbers[j]);
 					Permute(numbers, i + 1, numberToPermut);
 					Swap(ref numbers[i], ref numbers[j]);
+
+					if (count == 1000000) break;
 				}
 			}
 		}
